@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-/* Brute force approach sorts the array using merge or quick sort and then returns the last array index element */
+/* Brute force approach sorts the array using merge or quick sort and then returns the last array index element making time complexity of sort that is O(nlogn) */
 
 /* This program has optimal time complexity of O(n) using traversal and comparison loops */
 
