@@ -1,6 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// this program has optimal time complexity of O(n)
+
 int largest_element(vector <int> &arr){
     int n = arr.size();
     int largest = 0;
