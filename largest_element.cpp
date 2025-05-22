@@ -1,7 +1,10 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-//this program has optimal time complexity of O(n)
+/* Brute force approach sorts the array using merge or quick sort and then returns the last array index element */
+
+/* This program has optimal time complexity of O(n) using traversal and comparison loops */
+
 
 int largest_element(vector <int> &arr){
     int n = arr.size();
