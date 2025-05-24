@@ -1,6 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+/* this program also runs on the optimal time complexity of 
+O(n) by making use of simple loop and comparison condition*/
+
 int slargest_element(vector<int> &arr){
     int n = arr.size();
     int largest = arr[0];
