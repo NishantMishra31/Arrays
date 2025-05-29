@@ -1,6 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// this solution uses the optimal approach of summation, but space complexity is higher
+
 int missing(vector <int> &arr){
     int n = arr.size();
     int sum = n*(n+1)/2;
