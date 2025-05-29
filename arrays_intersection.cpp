@@ -1,5 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
+
+// this needs sorted arrays, sort them before running
 vector <int> intersection(vector<int> &arr1, vector<int> &arr2){
     int n = arr1.size();
     int m = arr2.size();
