@@ -1,6 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// this approach uses the optimal approach of XOR operations while saving space 
+
 int missing(vector<int>& nums) {
         int n = nums.size();
         int xor_all = 0;
