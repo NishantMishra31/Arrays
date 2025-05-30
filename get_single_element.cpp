@@ -1,6 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// one element appears once while others appear twice
+
 int getSingleElement(vector <int> &arr){
     int n = arr.size();
     int xor_op = 0;
