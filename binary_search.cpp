@@ -1,7 +1,10 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int binary_search(vector<int>& nums, int target) {
+// this searching algorithm uses recursion to find the target.
+// the array must be sorted to implement it.
+
+int binary_search(vector <int> & nums, int target) {
     int left = 0;
     int right = nums.size() - 1;
     while (left <= right) {
