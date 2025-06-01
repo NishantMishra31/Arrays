@@ -1,6 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// this code works for only-positive and mixed (positive-negative) values both.
+// however, we can optimize the code if array is positive only
+
 int longest_subarray_with_sum_k(vector <int> &arr, long long k){
     long long n = arr.size();
     map <long long, int> preMap;
