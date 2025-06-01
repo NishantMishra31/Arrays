@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// this approach is optimal but works only for non-negative numbers that is positive array
 int longest_subarray_with_sum_k(vector <int> &arr, long long k){
     long long n = arr.size();
     int left = 0, right = 0;
