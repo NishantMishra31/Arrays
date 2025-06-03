@@ -49,7 +49,7 @@ int main(){
     for (int i = 0; i < n; i++){
         cin >> arr[i];
     }
-    sort_array(arr);
+    sort_array2(arr);
     for (int i = 0; i < n; i++){
         cout << arr[i] << " ";
     }
