@@ -3,7 +3,7 @@ using namespace std;
 
 vector <int> twosum(vector <int> &arr, int k){
     int n = arr.size();
-    //returns indices, but it is brute force 
+    //returns indices, but it is brute force and takes near about O(n^2) TC
     for(int i = 0; i < n; i++){
         for(int j = i;  j < n; j++){
             if (i == j) continue;
@@ -17,7 +17,7 @@ vector <int> twosum(vector <int> &arr, int k){
 
 vector <int> twosum2(vector <int> &arr, int k){
     int n = arr.size();
-    //returns indices, and it is optimal as well
+    //returns indices, and it is optimal as well for most part
     map <int, int> mp;
     for (int i = 0; i < n; i++){
         int a = arr[i];
@@ -31,7 +31,7 @@ vector <int> twosum2(vector <int> &arr, int k){
 }
 
 string twosum3(vector <int> &arr, int k){
-    //only for checking the two su, does not return indices
+    //only for checking the two sum existence, does not return indices but optimal
     int n =  arr.size();
     sort(arr.begin(), arr.end());
     int left = 0, right = n - 1;
