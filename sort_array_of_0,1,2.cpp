@@ -2,6 +2,7 @@
 using namespace std;
 
 void sort_array(vector <int> &arr){
+    // this takes TC of O(2n) as there are two passes of iteration
     int n = arr.size();
     int count1 = 0, count2 = 0, count3 = 0;
     for (int i = 0; i < n; i++){
@@ -21,7 +22,8 @@ void sort_array(vector <int> &arr){
 }
 
 void sort_array2(vector <int> &arr){
-    //the dutch national flag approach
+    // the dutch national flag approach which takes TC of O(n) only
+    // as it works in a single pass with three pointer approach
     int n = arr.size();
     int low = 0, mid = 0, high = n - 1;
     while(mid <= high){
