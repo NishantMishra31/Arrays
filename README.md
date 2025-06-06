@@ -61,7 +61,7 @@ If you find this helpful, don't forget to **star ⭐** the repository to show yo
 
 Feel free to reach out via [GitHub issues](https://github.com/nishantmishra31/arrays/issues) for suggestions or questions. <br>
 You can also mail me at [Email](mailto:mnishant.work@gmail.com). <br>
-Connect with me on [LinkedIn](https://linkedin.com/nishant-mishra-)
+Connect with me on [LinkedIn](https://linkedin.com/in/nishant-mishra-)
 
 ## Author- Nishant Mishra
 (NishantMishra31)
