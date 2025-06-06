@@ -2,7 +2,9 @@
 using namespace std;
 
 void sort_array(vector <int> &arr){
-    // this takes TC of O(2n) as there are two passes of iteration
+    // this takes TC of O(2n) as there are two separate passes of iteration
+    // iteration 1 for counting elements
+    // iteration 2 for modifyiing the array
     int n = arr.size();
     int count1 = 0, count2 = 0, count3 = 0;
     for (int i = 0; i < n; i++){
