@@ -60,8 +60,6 @@ If you find this helpful, don't forget to **star ⭐** the repository to show yo
 ## 📬 Contact
 
 Feel free to reach out via [GitHub issues](https://github.com/nishantmishra31/arrays/issues) for suggestions or questions. <br>
-You can also contact through: [mnishant.work@gmail.com](mailto:mnishant.work@gmail.com)
-. <br>
 Connect with me on [LinkedIn](https://linkedin.com/in/nishant-mishra-)
 
 ## Author- Nishant Mishra
