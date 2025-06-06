@@ -1,6 +1,6 @@
 # 🚀 Striver's A2Z DSA Sheet – Arrays Section: Problem Solutions
 
-Welcome to the **Arrays** section of my solutions to [Striver's A2Z DSA Sheet](https://takeuforward.org/interviews/strivers-a2z-dsa-course-sheet-2/)! This repository contains well-commented implementations of array-related problems from the sheet, aimed at helping both myself and others understand the concepts and solutions clearly.
+Welcome to the **Arrays** section of my solutions to [Striver's A2Z DSA Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2)! This repository contains well-documented implementations of array-related problems from the sheet, aimed at helping both myself and others understand the concepts and solutions clearly.
 
 ## 📂 Repository Structure
 
