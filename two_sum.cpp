@@ -17,7 +17,7 @@ vector <int> twosum(vector <int> &arr, int k){
 
 vector <int> twosum2(vector <int> &arr, int k){
     int n = arr.size();
-    //returns indices, and it is optimal as well for most part
+    //returns indices, and it is optimal as well
     map <int, int> mp;
     for (int i = 0; i < n; i++){
         int a = arr[i];
@@ -31,7 +31,7 @@ vector <int> twosum2(vector <int> &arr, int k){
 }
 
 string twosum3(vector <int> &arr, int k){
-    //only for checking the two sum existence, does not return indices but optimal
+    //only for checking the two sum existence, does not return indices but most optimal
     int n =  arr.size();
     sort(arr.begin(), arr.end());
     int left = 0, right = n - 1;
