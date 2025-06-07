@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// this approach uses hashmaps to find out the majority element but increases space complexity
 int majority_element(vector <int> &arr){
     int n = arr.size();
     map<int, int> mp;
