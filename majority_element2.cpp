@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// this approach uses specialized algorithm called Moore’s Voting Algorithm which takes no extra space
 int majority_element(vector <int> &arr){
     int n = arr.size();
     int count = 0;
