@@ -2,6 +2,7 @@
 using namespace std;
 
 //this is a brute force solution that takes O(n^3) TC
+// it generates all subarrays and sums them up to find the maximum sum
 int maxsubarraysum(vector <int> &arr){
     int sum;
     int maxi = INT_MIN;
