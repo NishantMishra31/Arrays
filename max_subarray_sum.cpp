@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+//this is a brute force solution that takes O(n^3) TC
 int maxsubarraysum(vector <int> &arr){
     int sum;
     int maxi = INT_MIN;
