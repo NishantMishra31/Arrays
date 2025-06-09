@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// dynamic programming approach to solve the classic stock buy-sell problem
 int maxProfit(vector<int>& prices) {
     int n = prices.size();
     int mini =  prices[0];
