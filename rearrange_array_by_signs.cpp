@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// this approach uses two passes and extra space equivalent to array size
 vector <int> rearrange_array(vector <int> &arr){
     int n = arr.size();
     vector <int> pos_arr, neg_arr;
