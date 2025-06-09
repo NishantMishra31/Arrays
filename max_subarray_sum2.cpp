@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// this approach uses kadane's algorithm and returns the sum in O(n) TC
 long long maxsubarraysum(vector <int> &arr){
     int n = arr.size();
     int maxsum = arr[0];
