@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// this approach uses the concepts of comparison based sorting and sub-array reversing
 vector <int> nextpermutation(vector <int> &nums){
     int ind = -1;
     int n  = nums.size();
