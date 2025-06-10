@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// this approach finds out the leaders of an array in sorted fashion in O(n) TC
 vector <int> superior_elements(vector <int> &arr){
     int n = arr.size();
     int maxi = INT_MIN;
