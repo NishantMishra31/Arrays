@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+//this approach sorts the array and then performs comparative traversal to find out longest occuring sequence
 int longest_cons_seq(vector <int> &arr){
     int n = arr.size();
     if (n == 0) return 0;
