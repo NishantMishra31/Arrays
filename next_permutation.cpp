@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-//this program does nothing bu uses a simple c++ STL function, one should be able to implement it
+//this program does nothing but uses a simple c++ STL function, one should be able to implement it
 vector <int> nextpermutation(vector <int> &arr){
     next_permutation(arr.begin(),arr.end());
     return arr;
