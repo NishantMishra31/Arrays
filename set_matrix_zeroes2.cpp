@@ -1,6 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// this approac hashes the matrix values in temporary vectors and then modifies the matrix in place accordingly
+// O(2N^2) TC to traverse the array twice and also extra space of O(N+M) for storing rows and cols values
 void set_matrix_zeroes(vector<vector<int>>& matrix) {
     int n = matrix.size();
     int m = matrix[0].size();
