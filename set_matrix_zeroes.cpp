@@ -1,6 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// this is the brute-force approach that uses extra functions to mark down the desired elements
+// and re-iterates the matrix to re-mark them as zeroes
+// this program may cause some test-cases to fail due to placeholder clash such as -1, INT_MIN + x, etc.
+
 void markrow(vector<vector<int>> &arr, int row){
     int m = arr[0].size();
     for (int j = 0; j < m; j++){
