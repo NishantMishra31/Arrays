@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// this approach use O(N^2) TC but also takes an extra space to store the answer which is not needed
 void rotate_image(vector<vector<int>> &arr){
     int n = arr.size();
     vector<vector<int>> ans(n, vector<int>(n));
