@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+//this approach rotates the array in place using basic transpose and reverse functions in same O(N^2) TC but no extra space
 void rotate_image(vector<vector<int>> &arr){
     int n = arr.size();
     for (int i = 0; i < n; i++){
