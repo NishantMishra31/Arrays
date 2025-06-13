@@ -1,6 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// this is only approach to solve this problem
+// it uses boundaries of the matrix to spiral into its centre
+
 vector<int> spiral_matrix(vector<vector<int>> &arr){
     int n = arr.size();
     int m = arr[0].size();
