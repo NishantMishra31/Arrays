@@ -2,6 +2,7 @@
 using namespace std;
 
 // this approach uses the optimal approach of XOR operations while saving space 
+// code done with simple operations 
 
 int missing(vector<int>& nums) {
         int n = nums.size();
