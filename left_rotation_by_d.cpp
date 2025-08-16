@@ -1,9 +1,11 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// simple reverse functions to rotate the array
+
 void left_rotate(vector<int>& arr,int k) {
     int n = arr.size();
-    k = k % n;
+    k = k % n; // to check complete reversals
     reverse(arr.begin(), arr.begin() + k);
     reverse(arr.begin()+k, arr.end());
     reverse(arr.begin(), arr.end());
